@@ -1,0 +1,421 @@
+<!doctype html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://proxyfree.github.io/news/article-167475.htm" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>彻底解决华为V2Ray闪退问题：详尽指南与实用技巧</title>
+        <meta name="description" content="引言
+在当前复杂的网络环境下，越来越多的用户选择 V2Ray 作为科学上网和代理工具，借助它的强大功能突破网络限制，提升网络体验。然而，部分华为手机用户在使用 V2Ray 时遭遇了频繁闪退的问题，严重" />
+        <link rel="icon" href="/assets/website/img/freev2rayclash/favicon.ico" type="image/x-icon"/>
+
+    <meta name="author" content="ProxyFree 订阅中文网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://proxyfree.github.io/news/article-167475.htm" />
+    <meta property="og:site_name" content="ProxyFree 订阅中文网" />
+    <meta property="og:title" content="彻底解决华为V2Ray闪退问题：详尽指南与实用技巧" />
+    <meta property="og:image" content="https://proxyfree.github.io/uploads/20240919-1/8db967041a6211b145e3f6d475dd321b.webp" />
+        <meta property="og:release_date" content="2025-10-15T09:29:47" />
+    <meta property="og:updated_time" content="2025-10-15T09:29:47" />
+        <meta property="og:description" content="引言
+在当前复杂的网络环境下，越来越多的用户选择 V2Ray 作为科学上网和代理工具，借助它的强大功能突破网络限制，提升网络体验。然而，部分华为手机用户在使用 V2Ray 时遭遇了频繁闪退的问题，严重" />
+    
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="彻底解决华为V2Ray闪退问题：详尽指南与实用技巧">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="/assets/website/css/freev2rayclash/style-starter.css">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WHYR84PH4K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WHYR84PH4K');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854" crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark stroke">
+                <a class="navbar-brand" href="/">
+                                    <span>
+                        ProxyFree节点推荐                    </span>
+                                </a>
+                <!-- if logo is image enable this   
+      <a class="navbar-brand" href="#index.html">
+          <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+      </a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-lg-auto">
+                                                <li class="nav-item">
+                            <a class="nav-link" href="/">首页</a>
+                        </li>
+                                                <li class="nav-item">
+                            <a class="nav-link" href="/paid-subscribe/">推荐机场</a>
+                        </li>
+                                                <li class="nav-item">
+                            <a class="nav-link" href="/news/">新闻资讯</a>
+                        </li>
+                                                <li class="nav-item">
+                            <a class="nav-link" href="/client.htm">客户端</a>
+                        </li>
+                                            </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--/header-->
+    <div class="inner-banner">
+    </div>
+    <section class="w3l-breadcrumb">
+        <div class="container">
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="/">首页</a></li>
+                <li><a href="/news/"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> 新闻资讯</a></li>
+                <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> 正文</li>
+            </ul>
+        </div>
+    </section>
+    <!--/about-->
+    <!--/w3l-faq-block-->
+    <div class="w3l-faq-block py-5" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h1 class="mb-5">彻底解决华为V2Ray闪退问题：详尽指南与实用技巧</h1>
+                    
+                                    <input type="hidden" id="share-website-info" data-name="Clash Node免费节点站" data-url="https://clashnode.github.io">
+                <div class="xcblog-blog-detail xcblog-blog-detail-defined">
+                    
+<h2 data-start="35" data-end="46" class=""><strong data-start="38" data-end="44">引言</strong></h2>
+<p data-start="48" data-end="163" class="">在当前复杂的网络环境下，越来越多的用户选择 <strong data-start="70" data-end="79">V2Ray</strong> 作为科学上网和代理工具，借助它的强大功能突破网络限制，提升网络体验。然而，部分华为手机用户在使用 V2Ray 时遭遇了<strong data-start="139" data-end="147">频繁闪退</strong>的问题，严重影响了使用体验。</p>
+<p data-start="165" data-end="253" class="">? <strong data-start="168" data-end="178">闪退是什么？</strong><br data-start="178" data-end="181">
+闪退通常指的是应用在运行时突然崩溃并自动退出，而没有任何明显的提示或报错信息。这种情况不仅影响用户正常使用 V2Ray，还可能带来诸多不便。</p>
+<p data-start="255" data-end="327" class="">本文将从 <strong data-start="260" data-end="302">华为V2Ray 的特点、闪退问题的可能原因、有效的解决方案，以及如何预防闪退</strong> 等方面进行深入探讨，帮助你彻底解决这一问题！</p>
+<hr data-start="329" data-end="332" class="" style="">
+<h2 data-start="334" data-end="365" class=""><strong data-start="337" data-end="363">一、什么是华为V2Ray？为什么会发生闪退？</strong></h2>
+<h3 data-start="367" data-end="390" class=""><strong data-start="371" data-end="388">1. 华为V2Ray 简介</strong></h3>
+<p data-start="392" data-end="534" class="">华为V2Ray 并不是专门为华为设备定制的软件，而是指运行在 <strong data-start="423" data-end="443">华为手机上的 V2Ray 客户端</strong>。V2Ray 采用 <strong data-start="453" data-end="499">VMess、Shadowsocks、Trojan、Socks5、HTTP/HTTPS</strong> 等多种代理协议，能有效地帮助用户在受限的网络环境下实现自由访问。</p>
+<p data-start="536" data-end="656" class=""><strong data-start="536" data-end="549">V2Ray 的优势</strong>：<br data-start="550" data-end="553">
+✅ <strong data-start="555" data-end="564">多协议支持</strong>：兼容多个代理协议，适应不同的使用场景。<br data-start="584" data-end="587">
+✅ <strong data-start="589" data-end="599">智能流量管理</strong>：支持不同的规则配置，实现自动化网络分流。<br data-start="620" data-end="623">
+✅ <strong data-start="625" data-end="633">高安全性</strong>：流量加密功能，能有效对抗封锁和流量识别。</p>
+<h3 data-start="658" data-end="693" class=""><strong data-start="662" data-end="691">2. 为什么 V2Ray 在华为设备上会发生闪退？</strong></h3>
+<p data-start="695" data-end="821" class="">华为手机搭载的是基于 Android 深度定制的 <strong data-start="720" data-end="737">HarmonyOS（鸿蒙）</strong> 或 <strong data-start="740" data-end="748">EMUI</strong>，虽然兼容 Android 应用，但部分应用在运行时仍可能出现 <strong data-start="780" data-end="789">兼容性问题</strong>。V2Ray 在华为设备上出现闪退，可能由以下几种原因引起：</p>
+<p data-start="823" data-end="1067" class="">? <strong data-start="826" data-end="835">版本不兼容</strong>：V2Ray 的某些版本可能与华为最新的系统不兼容，导致运行异常。<br data-start="868" data-end="871">
+? <strong data-start="874" data-end="884">网络连接问题</strong>：不稳定的网络可能导致 V2Ray 频繁尝试重新连接，进而触发崩溃。<br data-start="918" data-end="921">
+? <strong data-start="924" data-end="932">内存不足</strong>：华为设备在运行多个应用时，若内存占用过高，V2Ray 可能因资源不足而崩溃。<br data-start="971" data-end="974">
+? <strong data-start="977" data-end="985">数据损坏</strong>：应用的缓存数据或配置文件损坏，可能会影响正常启动。<br data-start="1011" data-end="1014">
+? <strong data-start="1017" data-end="1025">权限受限</strong>：华为系统对部分 VPN 和代理工具可能会进行限制，影响 V2Ray 正常运行。</p>
+<hr data-start="1069" data-end="1072" class="" style="">
+<h2 data-start="1074" data-end="1103" class=""><strong data-start="1077" data-end="1101">二、解决华为V2Ray闪退问题的有效方法</strong></h2>
+<h3 data-start="1105" data-end="1141" class=""><strong data-start="1109" data-end="1139">方法1：更新 V2Ray 应用版本（解决兼容性问题）</strong></h3>
+<p data-start="1143" data-end="1200" class="">V2Ray 开发者会定期发布新版本，修复已知问题。因此，<strong data-start="1171" data-end="1185">检查并更新到最新版本</strong> 是解决闪退问题的第一步。</p>
+<p data-start="1202" data-end="1319" class="">? <strong data-start="1205" data-end="1213">操作步骤</strong>：<br data-start="1214" data-end="1217">
+1️⃣ <strong data-start="1221" data-end="1242">打开应用商店或官网下载 V2Ray</strong>（如 V2RayNG、Clash for Android）<br data-start="1271" data-end="1274">
+2️⃣ <strong data-start="1278" data-end="1292">检查是否有新版本可用</strong><br data-start="1292" data-end="1295">
+3️⃣ <strong data-start="1299" data-end="1310">下载并更新应用</strong>，然后重新启动</p>
+<p data-start="1321" data-end="1333" class="">? <strong data-start="1324" data-end="1330">注意</strong>：</p>
+<ul data-start="1334" data-end="1401">
+<li data-start="1334" data-end="1376" class="" style="">
+<p data-start="1336" data-end="1376" class="">推荐使用 GitHub 官方仓库下载最新的稳定版，而非来源不明的第三方应用。</p>
+</li>
+<li data-start="1377" data-end="1401" class="" style="">
+<p data-start="1379" data-end="1401" class="">若更新后仍然闪退，可以尝试降级到旧版本。</p>
+</li>
+</ul>
+<hr data-start="1403" data-end="1406" class="" style="">
+<h3 data-start="1408" data-end="1437" class=""><strong data-start="1412" data-end="1435">方法2：更新华为手机系统（提高兼容性）</strong></h3>
+<p data-start="1439" data-end="1468" class="">华为系统更新通常会修复兼容性问题，优化应用的运行环境。</p>
+<p data-start="1470" data-end="1583" class="">? <strong data-start="1473" data-end="1481">操作步骤</strong>：<br data-start="1482" data-end="1485">
+1️⃣ <strong data-start="1489" data-end="1499">进入“设置”</strong><br data-start="1499" data-end="1502">
+2️⃣ <strong data-start="1506" data-end="1525">选择“系统” → “软件更新”</strong><br data-start="1525" data-end="1528">
+3️⃣ <strong data-start="1532" data-end="1540">检查更新</strong>，如果有新版本，立即升级<br data-start="1552" data-end="1555">
+4️⃣ <strong data-start="1559" data-end="1581">重启手机，并尝试再次运行 V2Ray</strong></p>
+<hr data-start="1585" data-end="1588" class="" style="">
+<h3 data-start="1590" data-end="1621" class=""><strong data-start="1594" data-end="1619">方法3：清除应用缓存和数据（修复数据损坏）</strong></h3>
+<p data-start="1623" data-end="1665" class="">应用缓存文件损坏可能会导致 V2Ray 无法正常启动，建议清除缓存后再尝试运行。</p>
+<p data-start="1667" data-end="1817" class="">? <strong data-start="1670" data-end="1678">操作步骤</strong>：<br data-start="1679" data-end="1682">
+1️⃣ <strong data-start="1686" data-end="1696">打开“设置”</strong> → <strong data-start="1699" data-end="1709">“应用管理”</strong><br data-start="1709" data-end="1712">
+2️⃣ <strong data-start="1716" data-end="1741">找到 V2Ray（或 V2RayNG）应用</strong><br data-start="1741" data-end="1744">
+3️⃣ <strong data-start="1748" data-end="1758">点击“存储”</strong> → <strong data-start="1761" data-end="1771">“清除缓存”</strong><br data-start="1771" data-end="1774">
+4️⃣ <strong data-start="1778" data-end="1797">如果仍然闪退，尝试“清除数据”</strong>（清除数据后需重新配置 V2Ray）</p>
+<p data-start="1819" data-end="1860" class="">? <strong data-start="1822" data-end="1828">注意</strong>：清除数据会删除所有的 V2Ray 配置文件，请确保有备份！</p>
+<hr data-start="1862" data-end="1865" class="" style="">
+<h3 data-start="1867" data-end="1901" class=""><strong data-start="1871" data-end="1899">方法4：检查网络连接（避免不稳定的网络导致崩溃）</strong></h3>
+<p data-start="1903" data-end="1953" class="">由于 V2Ray 依赖网络连接，如果网络不稳定，可能会导致应用不断尝试连接服务器，最终触发崩溃。</p>
+<p data-start="1955" data-end="2058" class="">? <strong data-start="1958" data-end="1966">操作步骤</strong>：<br data-start="1967" data-end="1970">
+✅ <strong data-start="1972" data-end="1987">切换至 WiFi 连接</strong>，避免使用不稳定的移动数据<br data-start="2000" data-end="2003">
+✅ <strong data-start="2005" data-end="2014">重启路由器</strong>，确保网络环境正常<br data-start="2023" data-end="2026">
+✅ <strong data-start="2028" data-end="2046">使用不同的代理服务器进行测试</strong>，排除服务器端的问题</p>
+<p data-start="2060" data-end="2119" class="">? <strong data-start="2063" data-end="2069">提示</strong>：某些运营商可能会限制 V2Ray 相关流量，建议尝试更换网络或使用 <strong data-start="2104" data-end="2116">TLS 加密协议</strong>。</p>
+<hr data-start="2121" data-end="2124" class="" style="">
+<h3 data-start="2126" data-end="2158" class=""><strong data-start="2130" data-end="2156">方法5：释放系统内存（避免内存不足导致崩溃）</strong></h3>
+<p data-start="2160" data-end="2201" class="">如果你的手机运行多个后台应用，可能会占用大量内存，使 V2Ray 运行时崩溃。</p>
+<p data-start="2203" data-end="2310" class="">? <strong data-start="2206" data-end="2214">操作步骤</strong>：<br data-start="2215" data-end="2218">
+1️⃣ <strong data-start="2222" data-end="2235">按下“最近任务”键</strong>，关闭不必要的后台应用<br data-start="2246" data-end="2249">
+2️⃣ <strong data-start="2253" data-end="2270">进入“设置” → “存储”</strong>，检查是否有足够的可用空间<br data-start="2283" data-end="2286">
+3️⃣ <strong data-start="2290" data-end="2308">尝试清理存储空间，并重启设备</strong></p>
+<p data-start="2312" data-end="2364" class="">? <strong data-start="2315" data-end="2321">推荐</strong>：使用 <strong data-start="2325" data-end="2343">轻量级的 V2Ray 客户端</strong>（如 v2rayNG），减少资源消耗。</p>
+<hr data-start="2366" data-end="2369" class="" style="">
+<h3 data-start="2371" data-end="2408" class=""><strong data-start="2375" data-end="2406">方法6：卸载并重新安装 V2Ray（彻底清除错误配置）</strong></h3>
+<p data-start="2410" data-end="2449" class="">如果尝试了上述方法仍然无效，建议彻底卸载 V2Ray，并重新安装最新版本。</p>
+<p data-start="2451" data-end="2559" class="">? <strong data-start="2454" data-end="2462">操作步骤</strong>：<br data-start="2463" data-end="2466">
+1️⃣ <strong data-start="2470" data-end="2487">长按 V2Ray 应用图标</strong>，选择“卸载”<br data-start="2494" data-end="2497">
+2️⃣ <strong data-start="2501" data-end="2527">前往 GitHub 或应用商店，下载最新版本</strong><br data-start="2527" data-end="2530">
+3️⃣ <strong data-start="2534" data-end="2550">安装后重新配置代理服务器</strong>，然后运行应用</p>
+<p data-start="2561" data-end="2599" class="">? <strong data-start="2564" data-end="2570">提示</strong>：重新安装前，建议备份配置文件，以免丢失重要设置信息。</p>
+<hr data-start="2601" data-end="2604" class="" style="">
+<h2 data-start="2606" data-end="2633" class=""><strong data-start="2609" data-end="2631">三、如何预防 V2Ray 闪退问题？</strong></h2>
+<p data-start="2635" data-end="2737" class="">✅ <strong data-start="2637" data-end="2650">定期更新系统和应用</strong>，保持兼容性<br data-start="2656" data-end="2659">
+✅ <strong data-start="2661" data-end="2677">避免同时运行多个大型应用</strong>，减少内存占用<br data-start="2684" data-end="2687">
+✅ <strong data-start="2689" data-end="2699">定期清理缓存</strong>，避免数据损坏<br data-start="2706" data-end="2709">
+✅ <strong data-start="2711" data-end="2724">使用稳定的网络环境</strong>，减少连接失败的可能性</p>
+<hr data-start="2739" data-end="2742" class="" style="">
+<h2 data-start="2744" data-end="2760" class=""><strong data-start="2747" data-end="2758">四、总结与点评</strong></h2>
+<p data-start="2762" data-end="2876" class="">✨ <strong data-start="2764" data-end="2770">总结</strong>：本文全面分析了 <strong data-start="2779" data-end="2796">华为V2Ray 闪退的原因</strong>，并提供了 <strong data-start="2802" data-end="2815">多个有效的解决方案</strong>，包括 <strong data-start="2819" data-end="2852">更新应用、优化系统、清理缓存、检查网络、释放内存和重新安装</strong>，帮助用户彻底解决 V2Ray 的崩溃问题。</p>
+<p data-start="2878" data-end="2994" class="">? <strong data-start="2881" data-end="2887">点评</strong>：文章逻辑清晰，内容详尽，涵盖了 <strong data-start="2904" data-end="2935">V2Ray 基础知识、问题分析、具体解决方案和预防措施</strong>，无论是新手用户还是技术高手，都能从中找到适合自己的方法。希望这篇指南能帮助你顺利运行 V2Ray，畅享自由网络！?</p>                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-167098.htm">iPhone 8科学上网终极指南：解锁全球互联网的自由之门</a></p>
+                                        <p>下一个：<a href="/news/article-167896.htm">苹果用户必备：科学上网APP全攻略与安全畅游指南</a></p>
+                                    </div>
+                                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-162686.htm" title="突破网络边界：Shadowso科学上网全攻略与深度解析">突破网络边界：Shadowso科学上网全攻略与深度解析</a></li>
+                        <li class="py-2"><a href="/news/article-166334.htm" title="天行科学上网加速器全解析：功能、安装与使用教程详解">天行科学上网加速器全解析：功能、安装与使用教程详解</a></li>
+                        <li class="py-2"><a href="/news/article-168283.htm" title="家庭与办公网络共享全攻略：从基础配置到安全防护">家庭与办公网络共享全攻略：从基础配置到安全防护</a></li>
+                        <li class="py-2"><a href="/news/article-166711.htm" title="打破限制边界：全面解析Clash替代工具与科学上网新选择指南">打破限制边界：全面解析Clash替代工具与科学上网新选择指南</a></li>
+                        <li class="py-2"><a href="/news/article-167896.htm" title="苹果用户必备：科学上网APP全攻略与安全畅游指南">苹果用户必备：科学上网APP全攻略与安全畅游指南</a></li>
+                        <li class="py-2"><a href="/news/article-165577.htm" title="Clash速度监控全攻略：从入门到精通的高效网络优化指南">Clash速度监控全攻略：从入门到精通的高效网络优化指南</a></li>
+                        <li class="py-2"><a href="/news/article-165953.htm" title="突破网络边界：手把手教你实现安全高效的科学上网">突破网络边界：手把手教你实现安全高效的科学上网</a></li>
+                        <li class="py-2"><a href="/news/article-165211.htm" title="轻松掌握Clash订阅地址：从获取到复制的完整指南">轻松掌握Clash订阅地址：从获取到复制的完整指南</a></li>
+                        <li class="py-2"><a href="/news/article-163746.htm" title="香港ID科学上网的全面指南：突破限制，畅享自由互联网">香港ID科学上网的全面指南：突破限制，畅享自由互联网</a></li>
+                        <li class="py-2"><a href="/news/article-162987.htm" title="深入解析与实战：彻底解决v2ray远程服务器404错误的终极指南">深入解析与实战：彻底解决v2ray远程服务器404错误的终极指南</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">18</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--//w3l-faq-block-->
+    <section class="w3l-footer-29-main w3l-copyright">
+        <div class="container">
+            <div class="bottom-copies">
+                <p class="copy-footer-29 text-center">
+                                                <p>本站内容仅供学习与技术研究用途，无意传播或倡导任何违反法律法规的行为。在此声明：用户须自行了解所在地法律法规，合法合规使用；因使用不当产生的法律责任，与本站及作者无关；请在使用前仔细阅读本声明，继续使用即视为同意以上条款。</p>
+                    <p>
+                                                <a href="/">首页</a> |
+                                                <a href="/paid-subscribe/">推荐机场</a> |
+                                                <a href="/news/">新闻资讯</a> |
+                                                <a href="/client.htm">客户端</a> |
+                                                <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                                        <a href="/">ProxyFree 订阅中文网</a> 版权所有 Powered by WordPress
+                </p>
+            </div>
+        </div>
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-angle-up"></span>
+        </button>
+        <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <!-- /move top -->
+    </section>
+    <!-- Template JavaScript -->
+    <script src="/assets/website/js/frontend/freev2rayclash/jquery-3.3.1.min.js"></script>
+    <!-- script for testimonials -->
+    <script>
+    $(document).ready(function() {
+        $('.owl-testimonial').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                480: {
+                    items: 1,
+                    nav: false
+                },
+                667: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true
+                }
+            }
+        })
+    })
+    </script>
+    <!-- //script for testimonials -->
+    <script src="/assets/website/js/frontend/freev2rayclash/theme-change.js"></script>
+    <!-- js for portfolio lightbox -->
+    <!-- libhtbox -->
+    <script src="/assets/website/js/frontend/freev2rayclash/lightbox-plus-jquery.min.js"></script>
+    <!-- libhtbox -->
+    <script src="/assets/website/js/frontend/freev2rayclash/owl.carousel.js"></script>
+    <!-- script for banner slider-->
+    <script>
+    $(document).ready(function() {
+        $('.owl-one').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                480: {
+                    items: 1,
+                    nav: false
+                },
+                667: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true
+                }
+            }
+        })
+    })
+    </script>
+    <!-- //script -->
+    <!-- stats number counter-->
+    <script src="/assets/website/js/frontend/freev2rayclash/jquery.waypoints.min.js"></script>
+    <script src="/assets/website/js/frontend/freev2rayclash/jquery.countup.js"></script>
+    <script>
+    $('.counter').countUp();
+    </script>
+    <!-- //stats number counter -->
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+    $(function() {
+        $('.navbar-toggler').click(function() {
+            $('body').toggleClass('noscroll');
+        })
+    });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+    <!--/MENU-JS-->
+    <script>
+    $(window).on("scroll", function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function() {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function() {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+        });
+    });
+    </script>
+    <!--//MENU-JS-->
+    <script src="/assets/website/js/frontend/freev2rayclash/bootstrap.min.js"></script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+    <script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
+</html>
