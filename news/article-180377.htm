@@ -1,0 +1,408 @@
+<!doctype html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://proxyfree.github.io/news/article-180377.htm" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>如何在Padavan路由器上挂载vmess节点的详细指南</title>
+        <meta name="description" content="在当前的网络环境中，科学上网已经成为了很多用户的需求，尤其是在某些地区，访问全球互联网资源常常面临着封锁与限制。为了突破这些限制，很多人选择了使用代理工具，而在路由器上挂载科学上网节点是一个非常便捷且" />
+        <link rel="icon" href="/assets/website/img/freev2rayclash/favicon.ico" type="image/x-icon"/>
+
+    <meta name="author" content="ProxyFree 订阅中文网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://proxyfree.github.io/news/article-180377.htm" />
+    <meta property="og:site_name" content="ProxyFree 订阅中文网" />
+    <meta property="og:title" content="如何在Padavan路由器上挂载vmess节点的详细指南" />
+    <meta property="og:image" content="https://proxyfree.github.io/uploads/20240919-1/e433ff424b810a2c05f1824d3ccc3471.webp" />
+        <meta property="og:release_date" content="2025-11-21T08:56:49" />
+    <meta property="og:updated_time" content="2025-11-21T08:56:49" />
+        <meta property="og:description" content="在当前的网络环境中，科学上网已经成为了很多用户的需求，尤其是在某些地区，访问全球互联网资源常常面临着封锁与限制。为了突破这些限制，很多人选择了使用代理工具，而在路由器上挂载科学上网节点是一个非常便捷且" />
+    
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="如何在Padavan路由器上挂载vmess节点的详细指南">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="/assets/website/css/freev2rayclash/style-starter.css">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WHYR84PH4K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WHYR84PH4K');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854" crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark stroke">
+                <a class="navbar-brand" href="/">
+                                    <span>
+                        ProxyFree节点推荐                    </span>
+                                </a>
+                <!-- if logo is image enable this   
+      <a class="navbar-brand" href="#index.html">
+          <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+      </a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-lg-auto">
+                                                <li class="nav-item">
+                            <a class="nav-link" href="/">首页</a>
+                        </li>
+                                                <li class="nav-item">
+                            <a class="nav-link" href="/paid-subscribe/">推荐机场</a>
+                        </li>
+                                                <li class="nav-item">
+                            <a class="nav-link" href="/news/">新闻资讯</a>
+                        </li>
+                                                <li class="nav-item">
+                            <a class="nav-link" href="/client.htm">客户端</a>
+                        </li>
+                                            </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--/header-->
+    <div class="inner-banner">
+    </div>
+    <section class="w3l-breadcrumb">
+        <div class="container">
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="/">首页</a></li>
+                <li><a href="/news/"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> 新闻资讯</a></li>
+                <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> 正文</li>
+            </ul>
+        </div>
+    </section>
+    <!--/about-->
+    <!--/w3l-faq-block-->
+    <div class="w3l-faq-block py-5" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h1 class="mb-5">如何在Padavan路由器上挂载vmess节点的详细指南</h1>
+                    
+                    <input type="hidden" id="share-website-info" data-name="Clash Node免费节点站" data-url="https://clashnode.github.io">
+<div class="xcblog-blog-detail xcblog-blog-detail-defined">
+    
+<p data-start="32" data-end="240" class="">在当前的网络环境中，科学上网已经成为了很多用户的需求，尤其是在某些地区，访问全球互联网资源常常面临着封锁与限制。为了突破这些限制，很多人选择了使用代理工具，而在路由器上挂载科学上网节点是一个非常便捷且高效的方案。Padavan路由器作为一款开放源代码路由器，因其稳定性、强大的功能以及灵活的配置方式，受到了越来越多用户的青睐。本文将为你详细介绍如何在Padavan路由器上挂载vmess节点，以提升你的网络访问体验。</p>
+<h2 data-start="242" data-end="259" class="">什么是Padavan路由器？</h2>
+<p data-start="261" data-end="406" class="">Padavan是基于Asus路由器固件修改而来的一款开源固件，具有很强的可扩展性和灵活的配置选项。通过安装Padavan固件，用户能够让路由器具备VPN、流量监控、负载均衡、端口转发等多种高级功能。与官方固件相比，Padavan提供了更多的自定义设置，能够让用户根据自己的需求进行深度定制。</p>
+<p data-start="408" data-end="523" class="">Padavan固件广受欢迎的原因在于它能够让普通路由器变得功能丰富、稳定且高效，尤其适合有一定技术基础的用户。通过Padavan路由器，你不仅可以轻松地搭建个人VPN，还能进行流量管理、节点设置等操作，非常适合需要科学上网的用户。</p>
+<h2 data-start="525" data-end="539" class="">什么是vmess协议？</h2>
+<p data-start="541" data-end="666" class="">Vmess是一种加密通信协议，广泛应用于V2Ray项目中。它的主要目的是隐藏用户的网络流量，使得网络连接更加安全、稳定，并且能够有效突破各种网络限制。Vmess协议通过对流量的加密和混淆，使得它可以绕过防火墙、VPN屏蔽等限制，保障用户的隐私与安全。</p>
+<p data-start="668" data-end="776" class="">V2Ray是一款支持多种代理协议的网络工具，它通过vmess协议实现科学上网。通过配置vmess节点，用户可以在各种网络环境中实现流畅的互联网访问，尤其是在国内访问被屏蔽的网站和服务时，Vmess协议的优势尤为明显。</p>
+<h2 data-start="778" data-end="795" class="">挂载vmess节点的准备工作</h2>
+<p data-start="797" data-end="857" class="">在进行Padavan路由器的vmess节点挂载之前，用户需要准备一些基础材料和工具。这些准备工作将确保整个过程顺利进行。</p>
+<h3 data-start="859" data-end="881" class="">1. 安装Padavan固件的路由器</h3>
+<p data-start="883" data-end="978" class="">首先，确保你的路由器已经安装了Padavan固件。如果还没有安装，可以前往Padavan官网查找支持的路由器型号以及安装教程。安装固件的过程中，请严格按照说明操作，以避免出现刷机失败的情况。</p>
+<h3 data-start="980" data-end="1001" class="">2. 采购一个有效的vmess节点</h3>
+<p data-start="1003" data-end="1108" class="">要挂载vmess节点，用户需要首先购买或获取一个有效的vmess节点。这个节点通常会提供一系列信息，包括服务器地址、端口、用户ID、额外ID等。建议用户从可靠的服务提供商处购买节点，以确保节点的稳定性与安全性。</p>
+<h3 data-start="1110" data-end="1121" class="">3. 准备工具</h3>
+<p data-start="1123" data-end="1144" class="">为了进行路由器的配置，你需要准备以下工具：</p>
+<ul data-start="1145" data-end="1231">
+<li data-start="1145" data-end="1165" class="">
+<p data-start="1147" data-end="1165" class="">一台已安装Padavan固件的路由器</p>
+</li>
+<li data-start="1166" data-end="1195" class="">
+<p data-start="1168" data-end="1195" class="">一台电脑以及数据线，用于连接路由器和电脑，进行初步设置</p>
+</li>
+<li data-start="1196" data-end="1231" class="">
+<p data-start="1198" data-end="1231" class="">一个已购买的vmess节点信息（包括服务器地址、端口、用户ID等）</p>
+</li>
+</ul>
+<h2 data-start="1233" data-end="1260" class="">如何在Padavan路由器上配置vmess节点？</h2>
+<p data-start="1262" data-end="1314" class="">一旦准备工作完成，接下来就是在Padavan路由器上配置vmess节点的实际操作。以下是详细的步骤说明：</p>
+<h3 data-start="1316" data-end="1330" class="">1. 访问路由器后台</h3>
+<p data-start="1332" data-end="1450" class="">首先，打开浏览器，在地址栏输入路由器的管理IP地址。一般来说，Padavan路由器的默认IP为<code data-start="1379" data-end="1392">192.168.1.1</code>或<code data-start="1393" data-end="1406">192.168.0.1</code>。然后，输入管理账号和密码进行登录。登录成功后，你将进入Padavan路由器的管理后台。</p>
+<h3 data-start="1452" data-end="1466" class="">2. 安装必要的插件</h3>
+<p data-start="1468" data-end="1570" class="">在配置过程中，可能需要安装额外的插件来支持V2Ray功能。进入插件管理界面，选择需要安装的插件，并按照提示进行安装。安装完插件后，系统会提示你重启路由器。请确保插件成功安装并重启路由器，以便后续配置生效。</p>
+<h3 data-start="1572" data-end="1590" class="">3. 输入vmess节点信息</h3>
+<p data-start="1592" data-end="1638" class="">安装好插件后，你可以开始输入vmess节点的相关信息。进入V2Ray配置页面，输入以下信息：</p>
+<ul data-start="1639" data-end="1769">
+<li data-start="1639" data-end="1667" class="">
+<p data-start="1641" data-end="1667" class=""><strong data-start="1641" data-end="1650">服务器地址</strong>：填写你从服务商获取的服务器地址。</p>
+</li>
+<li data-start="1668" data-end="1692" class="">
+<p data-start="1670" data-end="1692" class=""><strong data-start="1670" data-end="1679">服务器端口</strong>：填写服务商提供的端口号。</p>
+</li>
+<li data-start="1693" data-end="1733" class="">
+<p data-start="1695" data-end="1733" class=""><strong data-start="1695" data-end="1703">用户ID</strong>：填写你的vmess用户ID，这个信息通常在购买节点时提供。</p>
+</li>
+<li data-start="1734" data-end="1769" class="">
+<p data-start="1736" data-end="1769" class=""><strong data-start="1736" data-end="1744">额外ID</strong>：如果服务商提供了额外ID，则填写相应的ID信息。</p>
+</li>
+</ul>
+<h3 data-start="1771" data-end="1784" class="">4. 启用流量转发</h3>
+<p data-start="1786" data-end="1849" class="">在路由器的设置菜单中，找到“流量转发”选项。确保已经勾选该选项，以便路由器能够正确地将流量通过vmess节点转发到目标服务器。</p>
+<h3 data-start="1851" data-end="1865" class="">5. 确认安全性设置</h3>
+<p data-start="1867" data-end="1942" class="">V2Ray节点的安全性设置非常重要，确保选择了安全的加密方式，并根据建议选择合适的配置。你可以选择最常用的“TLS”加密方式，以保障数据传输的安全性。</p>
+<h3 data-start="1944" data-end="1961" class="">6. 保存配置并重启路由器</h3>
+<p data-start="1963" data-end="2020" class="">完成配置后，点击保存按钮，并重启路由器以应用新的设置。这将使路由器的配置生效，开始使用vmess节点进行科学上网。</p>
+<h2 data-start="2022" data-end="2040" class="">验证vmess节点是否成功挂载</h2>
+<p data-start="2042" data-end="2080" class="">配置完成后，如何验证vmess节点是否挂载成功呢？以下是几种常用的验证方法：</p>
+<h3 data-start="2082" data-end="2097" class="">1. 使用网页测试工具</h3>
+<p data-start="2099" data-end="2180" class="">通过浏览器访问一些通常被屏蔽的网站（如YouTube、Facebook等），检查是否能够正常访问。如果能够顺利加载页面，说明你的vmess节点已经成功挂载并生效。</p>
+<h3 data-start="2182" data-end="2196" class="">2. 使用命令行工具</h3>
+<p data-start="2198" data-end="2257" class="">你也可以使用命令行工具（如<code data-start="2211" data-end="2217">curl</code>）来测试网络可达性。通过在命令行中输入以下命令，可以检查某个网站的网络连接状况：</p>
+<pre class="overflow-visible!" data-start="2258" data-end="2281"><div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary"><div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none rounded-t-[5px]">bash</div><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-sidebar-surface-primary text-token-text-secondary dark:bg-token-main-surface-secondary flex items-center rounded-sm px-2 font-sans text-xs"><span class="" data-state="closed"></span><span class="" data-state="closed"></span></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>curl [目标网址]
+</span></span></code></div></div></pre>
+<p data-start="2282" data-end="2322" class="">如果命令执行成功，并且能够正确返回网站内容，那么说明vmess节点配置已经成功。</p>
+<h2 data-start="2324" data-end="2333" class="">常见问题解答</h2>
+<h3 data-start="2335" data-end="2368" class="">Q1: Padavan路由器上挂载vmess节点是否复杂？</h3>
+<p data-start="2370" data-end="2438" class="">A1: 对于有一定网络基础的用户来说，整个过程并不复杂。Padavan路由器提供了较为直观的管理界面，用户只需按照步骤配置即可完成挂载。</p>
+<h3 data-start="2440" data-end="2463" class="">Q2: 如何获取vmess节点的信息？</h3>
+<p data-start="2465" data-end="2526" class="">A2: 你可以通过一些网络服务提供商或订阅服务获取vmess节点信息。务必确保信息来源可靠，以避免遇到无效或不安全的节点。</p>
+<h3 data-start="2528" data-end="2547" class="">Q3: 挂载后网络是否会变慢？</h3>
+<p data-start="2549" data-end="2616" class="">A3: 由于使用代理协议会带来一定的加密开销和延迟，理论上网络速度会稍有下降。但是，实际影响通常较小，具体速度还需根据网络条件来决定。</p>
+<h3 data-start="2618" data-end="2646" class="">Q4: 不同的设备可以使用同一vmess节点吗？</h3>
+<p data-start="2648" data-end="2722" class="">A4: 是的，多个设备可以同时使用同一个vmess节点。不过，需要注意的是，部分服务商对节点的最大连接数有限制，使用时应根据服务商的规定来进行配置。</p>
+<h2 data-start="2724" data-end="2729" class="">总结</h2>
+<p data-start="2731" data-end="2882" class="">通过在Padavan路由器上挂载vmess节点，用户可以有效地突破网络封锁，实现快速、安全、稳定的科学上网。虽然整个配置过程看似稍有复杂，但只要按照步骤操作，并且确保所用的节点信息可靠，就能够顺利完成配置。希望本文能够帮助你掌握在Padavan路由器上挂载vmess节点的方法，并提升你的网络访问体验。</p></div>
+<div class="clearfix"></div>
+<div class="col-md-12 mt-5">
+        <p>上一个：<a href="/news/article-179970.htm">突破网络藩篱：iOS免费科学上网工具全攻略与深度解析</a></p>
+        <p>下一个：<a href="/news/article-180792.htm">解密380.67_x7.6：突破网络边界的科学与艺术</a></p>
+    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-167098.htm" title="iPhone 8科学上网终极指南：解锁全球互联网的自由之门">iPhone 8科学上网终极指南：解锁全球互联网的自由之门</a></li>
+                        <li class="py-2"><a href="/news/article-178787.htm" title="全面掌握Clash安卓代理：从入门到精通的完整指南">全面掌握Clash安卓代理：从入门到精通的完整指南</a></li>
+                        <li class="py-2"><a href="/news/article-164076.htm" title="科学上网后为何仍无法访问YouTube？深度解析与全方位解决方案">科学上网后为何仍无法访问YouTube？深度解析与全方位解决方案</a></li>
+                        <li class="py-2"><a href="/news/article-181177.htm" title="Clash代理工具全攻略：从零开始掌握安全高效的网络配置艺术">Clash代理工具全攻略：从零开始掌握安全高效的网络配置艺术</a></li>
+                        <li class="py-2"><a href="/news/article-166711.htm" title="打破限制边界：全面解析Clash替代工具与科学上网新选择指南">打破限制边界：全面解析Clash替代工具与科学上网新选择指南</a></li>
+                        <li class="py-2"><a href="/news/article-172520.htm" title="Quantumult与小火箭深度对决：谁才是网络自由的最佳拍档？">Quantumult与小火箭深度对决：谁才是网络自由的最佳拍档？</a></li>
+                        <li class="py-2"><a href="/news/article-174457.htm" title="轻松掌握Clash加速器节点更新技巧，畅享极速网络体验">轻松掌握Clash加速器节点更新技巧，畅享极速网络体验</a></li>
+                        <li class="py-2"><a href="/news/article-177227.htm" title="Clash for Windows全面指南：从零开始掌握高效代理工具">Clash for Windows全面指南：从零开始掌握高效代理工具</a></li>
+                        <li class="py-2"><a href="/news/article-163746.htm" title="香港ID科学上网的全面指南：突破限制，畅享自由互联网">香港ID科学上网的全面指南：突破限制，畅享自由互联网</a></li>
+                        <li class="py-2"><a href="/news/article-170204.htm" title="彻底优化网络体验：Clash缓存清理全攻略与深度解析">彻底优化网络体验：Clash缓存清理全攻略与深度解析</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">22</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">27</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--//w3l-faq-block-->
+    <section class="w3l-footer-29-main w3l-copyright">
+        <div class="container">
+            <div class="bottom-copies">
+                <p class="copy-footer-29 text-center">
+                                                <p>本站内容仅供学习与技术研究用途，无意传播或倡导任何违反法律法规的行为。在此声明：用户须自行了解所在地法律法规，合法合规使用；因使用不当产生的法律责任，与本站及作者无关；请在使用前仔细阅读本声明，继续使用即视为同意以上条款。</p>
+                    <p>
+                                                <a href="/">首页</a> |
+                                                <a href="/paid-subscribe/">推荐机场</a> |
+                                                <a href="/news/">新闻资讯</a> |
+                                                <a href="/client.htm">客户端</a> |
+                                                <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                                        <a href="/">ProxyFree 订阅中文网</a> 版权所有 Powered by WordPress
+                </p>
+            </div>
+        </div>
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-angle-up"></span>
+        </button>
+        <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <!-- /move top -->
+    </section>
+    <!-- Template JavaScript -->
+    <script src="/assets/website/js/frontend/freev2rayclash/jquery-3.3.1.min.js"></script>
+    <!-- script for testimonials -->
+    <script>
+    $(document).ready(function() {
+        $('.owl-testimonial').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                480: {
+                    items: 1,
+                    nav: false
+                },
+                667: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true
+                }
+            }
+        })
+    })
+    </script>
+    <!-- //script for testimonials -->
+    <script src="/assets/website/js/frontend/freev2rayclash/theme-change.js"></script>
+    <!-- js for portfolio lightbox -->
+    <!-- libhtbox -->
+    <script src="/assets/website/js/frontend/freev2rayclash/lightbox-plus-jquery.min.js"></script>
+    <!-- libhtbox -->
+    <script src="/assets/website/js/frontend/freev2rayclash/owl.carousel.js"></script>
+    <!-- script for banner slider-->
+    <script>
+    $(document).ready(function() {
+        $('.owl-one').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                480: {
+                    items: 1,
+                    nav: false
+                },
+                667: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true
+                }
+            }
+        })
+    })
+    </script>
+    <!-- //script -->
+    <!-- stats number counter-->
+    <script src="/assets/website/js/frontend/freev2rayclash/jquery.waypoints.min.js"></script>
+    <script src="/assets/website/js/frontend/freev2rayclash/jquery.countup.js"></script>
+    <script>
+    $('.counter').countUp();
+    </script>
+    <!-- //stats number counter -->
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+    $(function() {
+        $('.navbar-toggler').click(function() {
+            $('body').toggleClass('noscroll');
+        })
+    });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+    <!--/MENU-JS-->
+    <script>
+    $(window).on("scroll", function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function() {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function() {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+        });
+    });
+    </script>
+    <!--//MENU-JS-->
+    <script src="/assets/website/js/frontend/freev2rayclash/bootstrap.min.js"></script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+    <script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
+</html>
