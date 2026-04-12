@@ -1,4 +1,4 @@
-# ProxyFree节点 | 4月1日18.5M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Clash节点/Singbox节点机场推荐，在线Clash机场梯子购买推荐  更新时间 2026-04-01 10:28:31
+# ProxyFree节点 | 4月12日21.4M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点机场推荐，在线Clash机场梯子购买推荐  更新时间 2026-04-12 08:37:59
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://proxyfree.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://proxyfree.github.io/uploads/2026/04/0-20260401.yaml
-- https://proxyfree.github.io/uploads/2026/04/1-20260401.yaml
-- https://proxyfree.github.io/uploads/2026/04/2-20260401.yaml
-- https://proxyfree.github.io/uploads/2026/04/3-20260401.yaml
-- https://proxyfree.github.io/uploads/2026/04/4-20260401.yaml
+- https://proxyfree.github.io/uploads/2026/04/0-20260412.yaml
+- https://proxyfree.github.io/uploads/2026/04/1-20260412.yaml
+- https://proxyfree.github.io/uploads/2026/04/2-20260412.yaml
+- https://proxyfree.github.io/uploads/2026/04/3-20260412.yaml
+- https://proxyfree.github.io/uploads/2026/04/4-20260412.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://proxyfree.github.io/uploads/2026/04/0-20260401.txt
-- https://proxyfree.github.io/uploads/2026/04/1-20260401.txt
-- https://proxyfree.github.io/uploads/2026/04/2-20260401.txt
-- https://proxyfree.github.io/uploads/2026/04/3-20260401.txt
-- https://proxyfree.github.io/uploads/2026/04/4-20260401.txt
+- https://proxyfree.github.io/uploads/2026/04/0-20260412.txt
+- https://proxyfree.github.io/uploads/2026/04/1-20260412.txt
+- https://proxyfree.github.io/uploads/2026/04/2-20260412.txt
+- https://proxyfree.github.io/uploads/2026/04/3-20260412.txt
+- https://proxyfree.github.io/uploads/2026/04/4-20260412.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://proxyfree.github.io/uploads/2026/04/20260401.json
+- https://proxyfree.github.io/uploads/2026/04/20260412.json
 
 ## 更多Clash节点订阅 ：
 
