@@ -271,14 +271,9 @@ V2Ray速锐提供多种流量伪装选项，如WebSocket、HTTP/2等，用户可
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 的节点延迟测量如何帮助选择节点？</h5></div>
+    <div class="panel-heading"><h5>VLESS + XTLS 模式在高并发下有什么优势？</h5></div>
     <div class="panel-body">
-        Shadowrocket 会测试节点延迟和丢包率，并根据结果排序。用户可快速选择延迟最低的节点访问网站或视频，提高连接速度和稳定性，优化整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 的自动切换功能如何配置？</h5></div>
-    <div class="panel-body">
-        Shadowrocket 支持根据策略组和节点延迟自动切换最优节点。用户可设置测速频率和延迟阈值，程序会定期测试节点并自动切换，以保证网络稳定性和速度。<hr />    </div>
+        XTLS 模式减少握手次数和加密冗余，提高 CPU 利用率和吞吐量。在高并发场景下能保持连接稳定，适合游戏、流媒体和频繁请求的网络环境，提升整体性能。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Trojan 的伪装域名为什么重要？</h5></div>
@@ -286,9 +281,19 @@ V2Ray速锐提供多种流量伪装选项，如WebSocket、HTTP/2等，用户可
         伪装域名必须真实可访问且证书有效，以使流量看起来像普通 HTTPS 请求。正确配置可以降低被封锁和 DPI 检测风险，提高节点安全性和长期可用性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 的“节点切换策略”如何配置？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 节点订阅自动更新如何配置？</h5></div>
     <div class="panel-body">
-        在 PassWall2 中可设置多节点策略，如“按延迟排序”、“自动选择最快节点”等。程序会定期测速，根据实时数据自动切换线路，保证连接的稳定性和速度。<hr />    </div>
+        用户可添加订阅 URL，Nekoray 会定期下载并替换旧节点。这样可保证节点列表始终最新，减少手动维护，提高使用效率，同时保证网络访问稳定可靠。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 的流量分流规则支持哪些条件？</h5></div>
+    <div class="panel-body">
+        V2Ray 支持按域名、IP、端口、协议或用户标签进行分流。用户可灵活设置国内直连、国外代理或特定节点，实现精准控制和网络优化。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Shadowrocket 的自动切换功能如何配置？</h5></div>
+    <div class="panel-body">
+        Shadowrocket 支持根据策略组和节点延迟自动切换最优节点。用户可设置测速频率和延迟阈值，程序会定期测试节点并自动切换，以保证网络稳定性和速度。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>如何合理设置 Clash 的 proxy-group 实现自动切换？</h5></div>
@@ -296,19 +301,9 @@ V2Ray速锐提供多种流量伪装选项，如WebSocket、HTTP/2等，用户可
         创建包含多个节点的策略组（如 `url-test` 或 `fallback`），设置合适的检测 URL 与检测频率，启用延迟优先或可用性优先策略。这样客户端会自动选择延迟最低或可用节点，提升稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 的节点批量操作功能有哪些优势？</h5></div>
+    <div class="panel-heading"><h5>PassWall2 的“节点切换策略”如何配置？</h5></div>
     <div class="panel-body">
-        Mihomo 支持批量导入、删除和更新节点，结合策略组管理，可高效维护大量节点。用户可以快速选择最佳节点，优化访问速度，同时减少手动操作的复杂度。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>VLESS + XTLS 模式在高并发下有什么优势？</h5></div>
-    <div class="panel-body">
-        XTLS 模式减少握手次数和加密冗余，提高 CPU 利用率和吞吐量。在高并发场景下能保持连接稳定，适合游戏、流媒体和频繁请求的网络环境，提升整体性能。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 节点订阅自动更新如何配置？</h5></div>
-    <div class="panel-body">
-        用户可添加订阅 URL，Nekoray 会定期下载并替换旧节点。这样可保证节点列表始终最新，减少手动维护，提高使用效率，同时保证网络访问稳定可靠。<hr />    </div>
+        在 PassWall2 中可设置多节点策略，如“按延迟排序”、“自动选择最快节点”等。程序会定期测速，根据实时数据自动切换线路，保证连接的稳定性和速度。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>WinXray 的 PAC 模式适合哪些使用场景？</h5></div>
@@ -316,9 +311,14 @@ V2Ray速锐提供多种流量伪装选项，如WebSocket、HTTP/2等，用户可
         PAC 模式可根据规则文件动态判断流量是否走代理。适合访问国内外混合网站环境，无需手动切换节点，程序自动分流，提高网络访问效率和稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的流量分流规则支持哪些条件？</h5></div>
+    <div class="panel-heading"><h5>Shadowrocket 的节点延迟测量如何帮助选择节点？</h5></div>
     <div class="panel-body">
-        V2Ray 支持按域名、IP、端口、协议或用户标签进行分流。用户可灵活设置国内直连、国外代理或特定节点，实现精准控制和网络优化。    </div>
+        Shadowrocket 会测试节点延迟和丢包率，并根据结果排序。用户可快速选择延迟最低的节点访问网站或视频，提高连接速度和稳定性，优化整体网络体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mihomo 的节点批量操作功能有哪些优势？</h5></div>
+    <div class="panel-body">
+        Mihomo 支持批量导入、删除和更新节点，结合策略组管理，可高效维护大量节点。用户可以快速选择最佳节点，优化访问速度，同时减少手动操作的复杂度。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -348,11 +348,11 @@ V2Ray速锐提供多种流量伪装选项，如WebSocket、HTTP/2等，用户可
     <div class="panel-body">
         <div class="row">
             <div class="text-center">
-                <a href="javascript:;" class="js_to" data-url="https://c.kilxs.cn/?path=register&code=" data-type="Xingchen" data-code="tlc6gYYx" target="_blank">
+                <a href="javascript:;" class="js_to" data-url="https://xc1.luniu8.com/?code=" data-type="Xingchen" data-code="tlc6gYYx" target="_blank">
                     <img src="/assets/website/img/G/xingchen.webp" class="avatar" alt="星辰机场">
                 </a>
                 <dl>
-                    <dt><a href="javascript:;" class="js_to" data-url="https://c.kilxs.cn/?path=register&code=" data-type="Xingchen" data-code="tlc6gYYx" target="_blank">星辰机场</a></dt>
+                    <dt><a href="javascript:;" class="js_to" data-url="https://xc1.luniu8.com/?code=" data-type="Xingchen" data-code="tlc6gYYx" target="_blank">星辰机场</a></dt>
                     <dd>
                         <p>【包年送2个月】</p><p>1、购买入门版年付套餐额外送2个月，共14个月，只要99元！！！</p><p>2、购买“至尊天皇”年付套餐，额外送2个月，只要299元！！！</p><p>3、购买其他包月类套餐中的年付，同样送2个月！！！</p><p>错过要再等一年！！</p>                    </dd>
                 </dl>
@@ -366,16 +366,16 @@ V2Ray速锐提供多种流量伪装选项，如WebSocket、HTTP/2等，用户可
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-9-12-free-ssr-subscribe.htm" title="ProxyFree节点 | 9月12日22.4M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/SSR节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月12日22.4M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/SSR节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-9-3.htm" title="ProxyFree节点 | 9月3日21.4M/S|免费Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月3日21.4M/S|免费Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-high-speed-nodes-2026-10-9.htm" title="ProxyFree节点 | 10月9日21.8M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 10月9日21.8M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-windows-2026-10-7.htm" title="ProxyFree节点 | 10月7日21.2M/S|免费Shadowrocket节点/Singbox节点/Clash节点/Trojan节点/SSR节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 10月7日21.2M/S|免费Shadowrocket节点/Singbox节点/Clash节点/Trojan节点/SSR节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-2-clash-v2ray-ss-ssr.htm" title="ProxyFree节点 | 9月2日19.6M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/Trojan节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月2日19.6M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/Trojan节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-9-11.htm" title="ProxyFree节点 | 9月11日18.3M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/SSR节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月11日18.3M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/SSR节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-14-node-share.htm" title="ProxyFree节点 | 9月14日19M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月14日19M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-subscribe-node-2026-9-23.htm" title="ProxyFree节点 | 9月23日18.6M/S|免费Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月23日18.6M/S|免费Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-windows-2026-9-17.htm" title="ProxyFree节点 | 9月17日21.4M/S|免费Shadowrocket节点/Clash节点/SSR节点/Trojan节点/Singbox节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月17日21.4M/S|免费Shadowrocket节点/Clash节点/SSR节点/Trojan节点/Singbox节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/free-clash-subscribe-2026-9-29.htm" title="ProxyFree节点 | 9月29日19M/S|免费Trojan节点/V2ray节点/Clash节点/Singbox节点/SSR节点/Shadowrocket节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月29日19M/S|免费Trojan节点/V2ray节点/Clash节点/Singbox节点/SSR节点/Shadowrocket节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-16-free-node-subscribe.htm" title="ProxyFree节点 | 10月16日22.6M/S|免费Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Trojan节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 10月16日22.6M/S|免费Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Trojan节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-12-free-ssr-subscribe.htm" title="ProxyFree节点 | 9月12日22.4M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/SSR节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月12日22.4M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/SSR节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-9-13.htm" title="ProxyFree节点 | 9月13日19.8M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点/Trojan节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月13日19.8M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点/Trojan节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-22-free-node-subscribe.htm" title="ProxyFree节点 | 10月22日21.2M/S|免费SSR节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 10月22日21.2M/S|免费SSR节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-v2ray-subscribe-2026-10-1.htm" title="ProxyFree节点 | 10月1日21.2M/S|免费Clash节点/V2ray节点/Trojan节点/Singbox节点/Shadowrocket节点/SSR节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 10月1日21.2M/S|免费Clash节点/V2ray节点/Trojan节点/Singbox节点/Shadowrocket节点/SSR节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-2-clash-v2ray-ss-ssr.htm" title="ProxyFree节点 | 9月2日19.6M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/Trojan节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月2日19.6M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/Trojan节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-26-free-node-subscribe.htm" title="ProxyFree节点 | 10月26日19.7M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/Trojan节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 10月26日19.7M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/Trojan节点/V2ray节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-14-node-share.htm" title="ProxyFree节点 | 9月14日19M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月14日19M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-8-free-node-subscribe.htm" title="ProxyFree节点 | 9月8日22.6M/S|免费Trojan节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点机场推荐，在线Clash机场梯子购买推荐">ProxyFree节点 | 9月8日22.6M/S|免费Trojan节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点机场推荐，在线Clash机场梯子购买推荐</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -387,7 +387,7 @@ V2Ray速锐提供多种流量伪装选项，如WebSocket、HTTP/2等，用户可
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">20</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
+                <h4><span class="badge" style="float: right;">27</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
@@ -417,7 +417,7 @@ V2Ray速锐提供多种流量伪装选项，如WebSocket、HTTP/2等，用户可
                         <a href="/privacy.htm">隐私申明</a> |
                         <a href="/sitemap.xml">网站地图</a>
                     </p>
-                                        <div>特别推荐：<b><a href="javascript:;" class="js_to" data-url="https://c.kilxs.cn/?path=register&code=" data-type="Xingchen" data-code="tlc6gYYx" target="_blank">星辰机场</a></b> <p>【包年送2个月】</p><p>1、购买入门版年付套餐额外送2个月，共14个月，只要99元！！！</p><p>2、购买“至尊天皇”年付套餐，额外送2个月，只要299元！！！</p><p>3、购买其他包月类套餐中的年付，同样送2个月！！！</p><p>错过要再等一年！！</p></div>
+                                        <div>特别推荐：<b><a href="javascript:;" class="js_to" data-url="https://xc1.luniu8.com/?code=" data-type="Xingchen" data-code="tlc6gYYx" target="_blank">星辰机场</a></b> <p>【包年送2个月】</p><p>1、购买入门版年付套餐额外送2个月，共14个月，只要99元！！！</p><p>2、购买“至尊天皇”年付套餐，额外送2个月，只要299元！！！</p><p>3、购买其他包月类套餐中的年付，同样送2个月！！！</p><p>错过要再等一年！！</p></div>
                                         <a href="/">ProxyFree 订阅中文网</a> 版权所有 Powered by WordPress
                 </p>
             </div>
